@@ -1,4 +1,6 @@
-The following license apply solely to the original bat script created by me. All third-party binaries and source files (located in deps/ , include/ , tcc/ ) are governed by their own respective licenses.
+The following license apply solely to the original bat script created 
+by me. All third-party binaries and source files (located in deps/ , 
+include/ , tcc/ ) are governed by their own respective licenses.
 
 This is free and unencumbered software released into the public domain.
 
