@@ -16,10 +16,10 @@ The package contains some windows bat script helping compile and pack the raylib
 
 ### Example
 
-Run following commands in package directory:
+Double-click to open these bat scripts or run following commands in package directory seperatly:
 ```bat
 build
-cpl && example/example.exe
+cpl && example.exe
 cpylib
 ```
 
