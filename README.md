@@ -13,7 +13,16 @@ The package contains some windows bat script helping compile and pack the raylib
 - `cpylib bat` : Pack the built raylib with dependency codes and tcc.
 - `lib_tpl/` : Lib template directory for packing built raylib, just contains several windows bat scripts.
 
+### Example
 
+Run following commands in package directory:
+```bat
+build
+cpl && example/example.exe
+cpylib
+```
+
+### Tips
 
 These scripts currently used on win8.1, if need to build or pack on other version of windows, find `-DUSER33_WIN8_1` in all scripts (also include scripts in `lib_tpl/` ) and replace them to `-DUSER33_WIN8` or just remove them for win7.
 
