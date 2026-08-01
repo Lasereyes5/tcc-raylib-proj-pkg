@@ -8,6 +8,7 @@ Copy the whole package into the directory `project/` inside the raylib repo dire
 The package contains some windows bat script helping compile and pack the raylib :
 
 - `build.bat` : Build raylib with tcc.
+	- This script calls external windres from gcc, you can complete your custom path of windres or add the path into environment variable `PATH`.
 - `cpl.bat` : Build raylib example program with built raylib and dependency codes.
 	- Modify this script if need to compile other programs.
 - `cpylib bat` : Pack the built raylib with dependency codes and tcc.
